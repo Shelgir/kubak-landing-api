@@ -8,7 +8,7 @@ on:
       - "*.md"
 
 env:
-  APP_NAME: kubak-landing-api
+  APP_NAME: kubak-api-landing
 
 concurrency:
   group: heroku-${{ github.ref_name }}
